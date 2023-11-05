@@ -15,7 +15,14 @@ const Navbar = () => {
   return (
     <div className="navbar px-5 flex justify-between py-2 rounded w-full">
       <div>
-        <Image src={logo} width={50} height={30} alt="Picture of the author" />
+        <Link href="/">
+          <Image
+            src={logo}
+            width={50}
+            height={30}
+            alt="Picture of the author"
+          />
+        </Link>
       </div>
       <nav className="">
         <div className="md:hidden">
@@ -33,7 +40,7 @@ const Navbar = () => {
         >
           <ul className="flex  flex-col md:flex-row md:space-x-4 md:items-center space-x-4 text-white text-xl align-center items-center  ">
             <li className="hover:text-green-500">
-              <Link href="/">Plant</Link>
+              <Link href="/plant">Plant</Link>
             </li>
             <li className="hover:text-green-500">
               <Link href="/profile">Profile</Link>
