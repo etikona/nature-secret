@@ -29,7 +29,7 @@ const Navbar = () => {
           <Image
             src={isNavOpen ? close : menu}
             onClick={() => setIsNavOpen(!isNavOpen)}
-            className="text-white text-2xl"
+            className="text-white text-2xl mt-5"
             aria-label="Toggle Menu"
           ></Image>
         </div>

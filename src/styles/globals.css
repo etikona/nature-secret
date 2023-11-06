@@ -64,7 +64,7 @@ body {
 .prev,
 .next {
   position: absolute;
-  top: 50%;
+  top: 75%;
   transform: translateY(-50%);
   background-color: #1c2f19;
   color: white;
