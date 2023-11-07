@@ -1,6 +1,8 @@
 import React from "react";
 import leaves from "../../assets/leaves.jpg";
 import Image from "next/image";
+import Link from "next/link";
+import PlantPage from "@/pages/plant";
 const Hero = () => {
   return (
     <div>
@@ -21,7 +23,9 @@ const Hero = () => {
               your surroundings. Its a rewarding practice that not only benefits
               your plants but also enhances your living spaces.
             </p>
-            <button className="btn button">Get Started</button>
+            <Link href="/plant" className="btn button">
+              Get Started
+            </Link>
           </div>
         </div>
       </div>
