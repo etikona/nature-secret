@@ -1,3 +1,4 @@
+import Footer from "@/components/Home/Footer";
 import Hero from "@/components/Home/Hero";
 import SingleCard from "@/components/Home/SingleCard";
 import Navbar from "@/components/Navbar";
@@ -11,6 +12,7 @@ const Home = () => {
       <Slider />
       <SingleCard />
       <Hero />
+      <Footer />
     </div>
   );
 };

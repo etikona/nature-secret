@@ -12,13 +12,16 @@ const Hero = () => {
             alt="leaves image"
           />
           <div className="text-slate-200">
-            <h1 className="text-5xl font-bold ">Box Office News!</h1>
-            <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+            <h3 className="text-5xl font-bold font-serif">
+              Check Your Plant Health!
+            </h3>
+            <p className="py-6 text-justify">
+              Regularly checking your plants health and addressing any concerns
+              promptly will help you maintain thriving and vibrant greenery in
+              your surroundings. Its a rewarding practice that not only benefits
+              your plants but also enhances your living spaces.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn button">Get Started</button>
           </div>
         </div>
       </div>

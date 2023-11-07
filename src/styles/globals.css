@@ -90,3 +90,11 @@ body {
   padding: 50px;
   /* #042e33  #227628  #035e4c */
 }
+
+/* Button */
+.button {
+  background-image: linear-gradient(to bottom right, #8fde07, #227628, #259210);
+  padding: 20px 15px;
+  color: white;
+  border: none;
+}
