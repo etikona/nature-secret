@@ -6,7 +6,7 @@ import Image from "next/image";
 const SingleCard = () => {
   return (
     <div className="my-20">
-      <div className="single-card rounded-xl shadow-lg grid  grid-cols-3 gap-4 ">
+      <div className="single-card rounded-xl shadow-lg grid  grid-cols-1  lg:grid-cols-3 gap-4 justify-center ">
         <div className="flex justify-around gap-2 text-justify">
           <div>
             <Image className="w-24 h-20" src={pot1} alt="pot 1" />
