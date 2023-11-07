@@ -27,7 +27,9 @@
 } */
 
 body {
-  background-color: #101a11;
+  /* background-color: #d5dbdb; */
+  background-image: linear-gradient(to bottom right, #101a11, #035e4c, #042e33);
+  /* background-image: linear-gradient(to bottom right, #f2f3f4, #ebedef, #d5dbdb); */
 }
 /*  Navbar  */
 .navbar {
@@ -66,7 +68,7 @@ body {
   position: absolute;
   top: 75%;
   transform: translateY(-50%);
-  background-color: #1c2f19;
+  background-color: #259210;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -81,3 +83,10 @@ body {
   right: 0;
 }
 /* Slider close */
+
+/* Single card */
+.single-card {
+  background-image: linear-gradient(to bottom right, #042e33, #227628, #035e4c);
+  padding: 50px;
+  /* #042e33  #227628  #035e4c */
+}
