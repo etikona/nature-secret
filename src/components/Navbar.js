@@ -42,18 +42,24 @@ const Navbar = () => {
             <li className="hover:text-green-500">
               <Link href="/plant">Plant</Link>
             </li>
-            <li className="hover:text-green-500">
+            {/* <li className="hover:text-green-500">
               <Link href="/profile">Profile</Link>
-            </li>
+            </li> */}
             <li className="hover:text-green-500">
               <Link href="/community">Community</Link>
             </li>
             <li className="hover:text-green-500">
+              <Link href="/user/SignUp">Login</Link>
+            </li>
+            <li className="hover:text-green-500">
+              <Link href="/user/SignIn">Signin</Link>
+            </li>
+            {/* <li className="hover:text-green-500">
               <Link href="/contact">Contact</Link>
             </li>
             <li className="hover:text-green-500">
               <Link href="/contact">About</Link>
-            </li>
+            </li> */}
             <li className="hover:text-green-500">
               <Link href="/contact">Blog</Link>
             </li>

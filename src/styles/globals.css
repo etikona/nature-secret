@@ -28,9 +28,13 @@
 
 body {
   /* background-color: #d5dbdb; */
+  /*! Dark Background */
   background-image: linear-gradient(to bottom right, #101a11, #035e4c, #042e33);
+
+  /*! Light Background */
   /* background-image: linear-gradient(to bottom right, #f2f3f4, #ebedef, #d5dbdb); */
 }
+
 /*  Navbar  */
 .navbar {
   background-color: #1c2f19;
