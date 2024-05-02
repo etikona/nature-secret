@@ -29,10 +29,13 @@
 body {
   /* background-color: #d5dbdb; */
   /*! Dark Background */
-  background-image: linear-gradient(to bottom right, #101a11, #035e4c, #042e33);
+  /* background-image: linear-gradient(to bottom right, #101a11, #035e4c, #042e33); */
 
   /*! Light Background */
-  /* background-image: linear-gradient(to bottom right, #f2f3f4, #ebedef, #d5dbdb); */
+  background-image: linear-gradient(to bottom right, #f2f3f4, #ebedef, #d5dbdb);
+  .bodyText {
+    color: #067aa4;
+  }
 }
 
 /*  Navbar  */
@@ -62,7 +65,12 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
 }
-
+.hero h3 {
+  color: #259210;
+}
+.hero p {
+  color: #101a11;
+}
 .active {
   opacity: 1;
 }

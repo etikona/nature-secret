@@ -15,7 +15,7 @@ const SignUp = () => {
   return (
     <>
       <Navbar />
-      <div className="hero-content flex-col lg:flex-row-reverse h-screen ">
+      <div className="hero-content flex-col lg:flex-row-reverse ">
         <div className="card shrink-0 w-full max-w-sm shadow-2xl">
           {/* "handleSubmit" will validate your inputs before invoking "onSubmit" */}
           <form onSubmit={handleSubmit(onSubmit)} className="card-body">
@@ -32,15 +32,7 @@ const SignUp = () => {
             </div>
 
             {/* include validation with required or other standard HTML validation rules */}
-            <div>
-              <label className="label">
-                <span className="label-text text-lg text-white">Name</span>
-              </label>
-              <input
-                className="input input-bordered w-full bg-slate-300 text-green-800 font-bold"
-                {...register("name", { required: true })}
-              />
-            </div>
+
             <div>
               <label className="label">
                 <span className="label-text text-lg text-white">Password</span>
@@ -48,15 +40,6 @@ const SignUp = () => {
               <input
                 className="input input-bordered w-full bg-slate-300 text-green-800 font-bold"
                 {...register("password", { required: true })}
-              />
-            </div>
-            <div>
-              <label className="label">
-                <span className="label-text text-lg text-white">Photo URL</span>
-              </label>
-              <input
-                className="input input-bordered w-full bg-slate-300 text-green-800 font-bold"
-                {...register("photoUrl", { required: true })}
               />
             </div>
 

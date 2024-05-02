@@ -14,7 +14,7 @@ const Hero = () => {
             alt="leaves image"
           />
           <div className="text-slate-200">
-            <h3 className="text-5xl font-bold font-serif">
+            <h3 className="text-5xl font-thin font-serif text-left hero">
               Check Your Plant Health!
             </h3>
             <p className="py-6 text-justify">
